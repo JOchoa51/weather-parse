@@ -28,9 +28,9 @@ This project is a Python-based tool designed to parse weather station data from 
 
 1. Clone or download the repository.
 2. Install the required libraries:
-   $$$bash
+   ```bash
    pip install pandas beautifulsoup4 requests openpyxl xlsxwriter getuseragent
-   $$$
+   ```
 3. Place your input CSV file (`interseccion2.csv`) in the project directory.
 
 ## Input Data Format
@@ -43,9 +43,9 @@ The input CSV file should include the following columns:
 ## Usage
 
 1. Run the script:
-   $$$bash
+   ```bash
    python hrefSeparator.py
-   $$$
+   ```
 2. The script will:
    - Parse the HTML strings to extract data.
    - Download files for operational and suspended weather stations.
